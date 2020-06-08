@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>
   Crystal Cove 
 </title>
@@ -21,7 +22,8 @@ div.main{
 border:5px solid lightblue;
 margin-left:150px;
 margin-right:150px;
-
+width:auto;
+text-align:center;
 }
 
 div.polaroid1 {
@@ -29,7 +31,10 @@ div.polaroid1 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   display: inline-block;
- margin-left:50px ;
+  /*margin-left:50px ;*/
+  width:auto;
+  
+  
 }
 
 
@@ -38,7 +43,10 @@ div.polaroid2 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   display: inline-block;
-margin: 20px 20px 20px 30px;
+  /*margin: 20px 20px 20px 30px; */
+  width:auto;
+  
+  
 
 
 }
@@ -48,7 +56,10 @@ div.polaroid3 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   display: inline-block;
-  margin: 30px 20px 20px 13px;
+  /*margin: 30px 20px 20px 13px;*/
+  width:auto;
+ 
+ 
 
 }
 
@@ -57,7 +68,10 @@ div.polaroid4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   display: inline-block;
-  margin-left:50px ;
+  /*margin-left:50px ;*/
+  width:auto;
+ 
+  
 
 }
 div.polaroid5 {
@@ -65,18 +79,30 @@ div.polaroid5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   display: inline-block;
-  margin: 20px 20px 20px 30px;
+  /*margin: 20px 20px 20px 30px;*/
+  width:auto;
+ 
 
 }
 
 div.polaroid6 {
-   width: 350px;
+  width: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
   display: inline-block;
-  margin: 30px 20px 20px 13px;
-
-
+  /* margin: 30px 20px 20px 13px;*/
+  width:auto;
+  
+}
+	
+  @media screen and (min-width: 1520px) {
+  div.main{width:auto;}
+  div.polaroid1 {width: 350px; display: inline-block; margin-left:50px ;}
+  div.polaroid2 {width: 350px; display: inline-block; margin: 20px 20px 20px 30px;}
+  div.polaroid3 {width: 350px; display: inline-block; margin: 30px 20px 20px 13px;}
+  div.polaroid4 {width: 350px; display: inline-block; margin-left:50px ;}
+  div.polaroid5 {width: 350px; display: inline-block; margin: 20px 20px 20px 30px;}
+  div.polaroid6 {width: 350px; display: inline-block; margin: 30px 20px 20px 13px;}
 }
 
 div.container {
